@@ -1,0 +1,36 @@
+# Apesar dos softwares de gestão de projetos fazerem parte do processo de bug tracking (e serem extremamente úteis), 
+eles não anulam a comunicação que precisamos construir e manter com o dev no dia-a-dia. É interessante manter um
+padrão no report de defeitos para que não haja incertezas do que corrigir e consequentemente termos um re-teste eficaz.
+
+Descrição do bug para o dev:
+
+-
+
+Descrição resumida
+- Bug/defeito no fluxo de verificação do token
+
+Quem reportou
+- Bruna Targino
+
+Descrição detalhada
+- Na tela de verificação do token, ao inserir no campo o código enviado ao dispositivo, gmail não está validando o texto corretamente
+  Segue em anexo algumas evidências:
+  <evidencias>
+
+Passos para a reprodução
+- Reproduzir todo cenário de registro no google, e ao receber token no dispositivo, inseri-lo no campo para verificação
+
+Resultado esperado
+- Token validado, consequentemente, conta criada com sucesso
+
+Data em que o defeito foi descoberto
+- 27-09-2022.
+
+Gravidade
+- High (Alta)
+
+Status
+- Aberto
+
+Ambiente
+- Hml
